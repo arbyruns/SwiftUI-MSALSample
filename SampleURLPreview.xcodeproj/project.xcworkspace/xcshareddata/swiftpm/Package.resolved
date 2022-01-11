@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "URLLivePreview",
+        "repositoryURL": "https://github.com/arbyruns/URLLivePreview.git",
+        "state": {
+          "branch": "main",
+          "revision": "78ba5f90915f84a2a8a152ddae89e530d2a519c8",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
