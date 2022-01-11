@@ -1,14 +1,14 @@
 //
-//  SampleURLPreviewApp.swift
-//  SampleURLPreview
+//  SwiftUIMSALApp.swift
+//  SwiftUIMSAL
 //
-//  Created by robevans on 1/6/22.
+//  Created by robevans on 1/10/22.
 //
 
 import SwiftUI
 
 @main
-struct SampleURLPreviewApp: App {
+struct SwiftUIMSALApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

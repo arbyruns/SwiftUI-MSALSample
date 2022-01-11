@@ -7,107 +7,125 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5469906C27873A26007AC20B /* SampleURLPreviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5469906B27873A26007AC20B /* SampleURLPreviewApp.swift */; };
-		5469906E27873A26007AC20B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5469906D27873A26007AC20B /* ContentView.swift */; };
-		5469907027873A28007AC20B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5469906F27873A28007AC20B /* Assets.xcassets */; };
-		5469907327873A28007AC20B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5469907227873A28007AC20B /* Preview Assets.xcassets */; };
-		5469907B27873A3A007AC20B /* URLLivePreview in Frameworks */ = {isa = PBXBuildFile; productRef = 5469907A27873A3A007AC20B /* URLLivePreview */; };
+		5413661E278C7F06003E8F1F /* SwiftUIMSALApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413661D278C7F06003E8F1F /* SwiftUIMSALApp.swift */; };
+		54136620278C7F06003E8F1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413661F278C7F06003E8F1F /* ContentView.swift */; };
+		54136622278C7F08003E8F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54136621278C7F08003E8F1F /* Assets.xcassets */; };
+		54136625278C7F08003E8F1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54136624278C7F08003E8F1F /* Preview Assets.xcassets */; };
+		5413662D278C7F3C003E8F1F /* MSAL in Frameworks */ = {isa = PBXBuildFile; productRef = 5413662C278C7F3C003E8F1F /* MSAL */; };
+		54136633278C836D003E8F1F /* MSALLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54136632278C836D003E8F1F /* MSALLogin.swift */; };
+		54E4A96E278CEEA500864B8A /* sekrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E4A96D278CEEA500864B8A /* sekrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5469906827873A26007AC20B /* SampleURLPreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleURLPreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5469906B27873A26007AC20B /* SampleURLPreviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleURLPreviewApp.swift; sourceTree = "<group>"; };
-		5469906D27873A26007AC20B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5469906F27873A28007AC20B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5469907227873A28007AC20B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5413661A278C7F06003E8F1F /* SwiftUIMSAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMSAL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5413661D278C7F06003E8F1F /* SwiftUIMSALApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMSALApp.swift; sourceTree = "<group>"; };
+		5413661F278C7F06003E8F1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		54136621278C7F08003E8F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54136624278C7F08003E8F1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		54136630278C8005003E8F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		54136631278C8150003E8F1F /* SwiftUIMSAL.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIMSAL.entitlements; sourceTree = "<group>"; };
+		54136632278C836D003E8F1F /* MSALLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSALLogin.swift; sourceTree = "<group>"; };
+		54E4A96D278CEEA500864B8A /* sekrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sekrets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5469906527873A26007AC20B /* Frameworks */ = {
+		54136617278C7F06003E8F1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5469907B27873A3A007AC20B /* URLLivePreview in Frameworks */,
+				5413662D278C7F3C003E8F1F /* MSAL in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5469905F27873A26007AC20B = {
+		54136611278C7F06003E8F1F = {
 			isa = PBXGroup;
 			children = (
-				5469906A27873A26007AC20B /* SampleURLPreview */,
-				5469906927873A26007AC20B /* Products */,
+				5413661C278C7F06003E8F1F /* SwiftUIMSAL */,
+				5413661B278C7F06003E8F1F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5469906927873A26007AC20B /* Products */ = {
+		5413661B278C7F06003E8F1F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5469906827873A26007AC20B /* SampleURLPreview.app */,
+				5413661A278C7F06003E8F1F /* SwiftUIMSAL.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5469906A27873A26007AC20B /* SampleURLPreview */ = {
+		5413661C278C7F06003E8F1F /* SwiftUIMSAL */ = {
 			isa = PBXGroup;
 			children = (
-				5469906B27873A26007AC20B /* SampleURLPreviewApp.swift */,
-				5469906D27873A26007AC20B /* ContentView.swift */,
-				5469906F27873A28007AC20B /* Assets.xcassets */,
-				5469907127873A28007AC20B /* Preview Content */,
+				54E4A96A278CDF5D00864B8A /* Data */,
+				54136631278C8150003E8F1F /* SwiftUIMSAL.entitlements */,
+				54136630278C8005003E8F1F /* Info.plist */,
+				54136632278C836D003E8F1F /* MSALLogin.swift */,
+				54E4A96D278CEEA500864B8A /* sekrets.swift */,
+				5413661D278C7F06003E8F1F /* SwiftUIMSALApp.swift */,
+				5413661F278C7F06003E8F1F /* ContentView.swift */,
+				54136621278C7F08003E8F1F /* Assets.xcassets */,
+				54136623278C7F08003E8F1F /* Preview Content */,
 			);
-			path = SampleURLPreview;
+			path = SwiftUIMSAL;
 			sourceTree = "<group>";
 		};
-		5469907127873A28007AC20B /* Preview Content */ = {
+		54136623278C7F08003E8F1F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				5469907227873A28007AC20B /* Preview Assets.xcassets */,
+				54136624278C7F08003E8F1F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		54E4A96A278CDF5D00864B8A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5469906727873A26007AC20B /* SampleURLPreview */ = {
+		54136619278C7F06003E8F1F /* SwiftUIMSAL */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5469907627873A28007AC20B /* Build configuration list for PBXNativeTarget "SampleURLPreview" */;
+			buildConfigurationList = 54136628278C7F08003E8F1F /* Build configuration list for PBXNativeTarget "SwiftUIMSAL" */;
 			buildPhases = (
-				5469906427873A26007AC20B /* Sources */,
-				5469906527873A26007AC20B /* Frameworks */,
-				5469906627873A26007AC20B /* Resources */,
+				54136616278C7F06003E8F1F /* Sources */,
+				54136617278C7F06003E8F1F /* Frameworks */,
+				54136618278C7F06003E8F1F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SampleURLPreview;
+			name = SwiftUIMSAL;
 			packageProductDependencies = (
-				5469907A27873A3A007AC20B /* URLLivePreview */,
+				5413662C278C7F3C003E8F1F /* MSAL */,
 			);
-			productName = SampleURLPreview;
-			productReference = 5469906827873A26007AC20B /* SampleURLPreview.app */;
+			productName = SwiftUIMSAL;
+			productReference = 5413661A278C7F06003E8F1F /* SwiftUIMSAL.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5469906027873A26007AC20B /* Project object */ = {
+		54136612278C7F06003E8F1F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					5469906727873A26007AC20B = {
+					54136619278C7F06003E8F1F = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 5469906327873A26007AC20B /* Build configuration list for PBXProject "SampleURLPreview" */;
+			buildConfigurationList = 54136615278C7F06003E8F1F /* Build configuration list for PBXProject "SwiftUIMSAL" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,45 +133,47 @@
 				en,
 				Base,
 			);
-			mainGroup = 5469905F27873A26007AC20B;
+			mainGroup = 54136611278C7F06003E8F1F;
 			packageReferences = (
-				5469907927873A3A007AC20B /* XCRemoteSwiftPackageReference "URLLivePreview" */,
+				5413662B278C7F3C003E8F1F /* XCRemoteSwiftPackageReference "microsoft-authentication-library-for-objc" */,
 			);
-			productRefGroup = 5469906927873A26007AC20B /* Products */;
+			productRefGroup = 5413661B278C7F06003E8F1F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5469906727873A26007AC20B /* SampleURLPreview */,
+				54136619278C7F06003E8F1F /* SwiftUIMSAL */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5469906627873A26007AC20B /* Resources */ = {
+		54136618278C7F06003E8F1F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5469907327873A28007AC20B /* Preview Assets.xcassets in Resources */,
-				5469907027873A28007AC20B /* Assets.xcassets in Resources */,
+				54136625278C7F08003E8F1F /* Preview Assets.xcassets in Resources */,
+				54136622278C7F08003E8F1F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5469906427873A26007AC20B /* Sources */ = {
+		54136616278C7F06003E8F1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5469906E27873A26007AC20B /* ContentView.swift in Sources */,
-				5469906C27873A26007AC20B /* SampleURLPreviewApp.swift in Sources */,
+				54E4A96E278CEEA500864B8A /* sekrets.swift in Sources */,
+				54136633278C836D003E8F1F /* MSALLogin.swift in Sources */,
+				54136620278C7F06003E8F1F /* ContentView.swift in Sources */,
+				5413661E278C7F06003E8F1F /* SwiftUIMSALApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5469907427873A28007AC20B /* Debug */ = {
+		54136626278C7F08003E8F1F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -214,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		5469907527873A28007AC20B /* Release */ = {
+		54136627278C7F08003E8F1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -269,17 +289,19 @@
 			};
 			name = Release;
 		};
-		5469907727873A28007AC20B /* Debug */ = {
+		54136629278C7F08003E8F1F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftUIMSAL/SwiftUIMSAL.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SampleURLPreview/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIMSAL/Preview Content\"";
 				DEVELOPMENT_TEAM = 9A934JYXT5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIMSAL/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -290,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.arby.SampleURLPreview;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arby.SwiftUIMSAL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -298,17 +320,19 @@
 			};
 			name = Debug;
 		};
-		5469907827873A28007AC20B /* Release */ = {
+		5413662A278C7F08003E8F1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftUIMSAL/SwiftUIMSAL.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SampleURLPreview/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIMSAL/Preview Content\"";
 				DEVELOPMENT_TEAM = 9A934JYXT5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIMSAL/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -319,7 +343,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.arby.SampleURLPreview;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arby.SwiftUIMSAL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -330,20 +354,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5469906327873A26007AC20B /* Build configuration list for PBXProject "SampleURLPreview" */ = {
+		54136615278C7F06003E8F1F /* Build configuration list for PBXProject "SwiftUIMSAL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5469907427873A28007AC20B /* Debug */,
-				5469907527873A28007AC20B /* Release */,
+				54136626278C7F08003E8F1F /* Debug */,
+				54136627278C7F08003E8F1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5469907627873A28007AC20B /* Build configuration list for PBXNativeTarget "SampleURLPreview" */ = {
+		54136628278C7F08003E8F1F /* Build configuration list for PBXNativeTarget "SwiftUIMSAL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5469907727873A28007AC20B /* Debug */,
-				5469907827873A28007AC20B /* Release */,
+				54136629278C7F08003E8F1F /* Debug */,
+				5413662A278C7F08003E8F1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -351,23 +375,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		5469907927873A3A007AC20B /* XCRemoteSwiftPackageReference "URLLivePreview" */ = {
+		5413662B278C7F3C003E8F1F /* XCRemoteSwiftPackageReference "microsoft-authentication-library-for-objc" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/arbyruns/URLLivePreview.git";
+			repositoryURL = "https://github.com/AzureAD/microsoft-authentication-library-for-objc.git";
 			requirement = {
-				branch = main;
+				branch = dev;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5469907A27873A3A007AC20B /* URLLivePreview */ = {
+		5413662C278C7F3C003E8F1F /* MSAL */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5469907927873A3A007AC20B /* XCRemoteSwiftPackageReference "URLLivePreview" */;
-			productName = URLLivePreview;
+			package = 5413662B278C7F3C003E8F1F /* XCRemoteSwiftPackageReference "microsoft-authentication-library-for-objc" */;
+			productName = MSAL;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 5469906027873A26007AC20B /* Project object */;
+	rootObject = 54136612278C7F06003E8F1F /* Project object */;
 }
