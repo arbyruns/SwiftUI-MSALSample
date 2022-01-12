@@ -11,6 +11,8 @@ There is still some work to be done.  Please feel free to open a PR for any code
 2. Follow the instructions listed on the AzureAD [github](https://github.com/AzureAD/microsoft-authentication-library-for-objc#installation) to register your app within the Azure Portal.
 3. You will also want to follow the steps listed on adding MSAL to your project listed [here](https://github.com/AzureAD/microsoft-authentication-library-for-objc#installation).  
 4. Updated `clientID` and `redirectUri` in  `MSALLogin.swift` - `MSALPublicClientApplicationConfig(clientId: clientID, redirectUri: redirectUri, authority: authority)` with the information you got from when you registered your app in the azure portal. 
+5. ???
+6. Profit.
 
 # Getting Started:
 
